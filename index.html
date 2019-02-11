@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Test Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modalbox">
+          <img src="img/close-button.png" class="modalbox__close-btn">
+        <form action="#" class="modalbox__form">
+          <!-- FORM HEADER -->
+          <div class="form__header">
+            <div class="progress-bar strip">
+              <p class="progress-value">80% готово</p>
+              <span style="width: 80%"><span></span></span>
+
+              <!-- <div class="progress-value">80% готово</div> -->
+            </div>
+            <p class="form__header--text">
+              Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку
+              ниже, чтобы участвовать в онлайн мастер-классе
+            </p>
+          </div>
+          <!-- FORM HEAD -->
+
+          <!-- FORM MAIN -->
+          <div class="form__main">
+            <p class="form__main--text">
+              Да, Я <span>(введите ваше имя) </span
+              ><input
+                class="form__main--input inp-name"
+                name="name"
+                type="text"
+                placeholder="Снежана"
+              />хочу участвовать в Онлайн Мастер-Классе и получить PDF-список
+              “ТОП50 товаров из Китая”, которые можно продать в СНГ с наценкой в
+              300%
+            </p>
+            <p class="form__main--text email">
+              Вышлите мне доступ на <span>E-mail </span
+              ><input
+                class="form__main--input inp-email"
+                type="email"
+                name="email"
+                placeholder="example@mail.com"
+                size=""
+              />
+            </p>
+            <p class="form__main--text phone">
+              Чтобы я 100% не забыл, пришлите мне СМС-напоминание на этот моб.
+              тел. <span>(введите номер)</span>:<input
+                class="form__main--input inp-phone"
+                type="tel"
+                placeholder="+79 000 000 00 00"
+              />
+            </p>
+          </div>
+          <!-- FORM MAIN -->
+
+          <!-- FORM FOOTER -->
+          <div class="form__footer">
+            <input
+              class="form__btn"
+              type="submit"
+              value="Участвовать в мастер-классе"
+            />
+            <p class="form__footer--text">
+              <img src="img/lock.png" /> 100% защита от 3-х лиц
+            </p>
+          </div>
+          <!-- FORM FOOTER -->
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
