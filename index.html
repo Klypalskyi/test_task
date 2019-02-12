@@ -12,7 +12,7 @@
   <body>
     <div class="wrapper">
       <div class="modalbox">
-          <img src="img/close-button.png" class="modalbox__close-btn">
+        <img src="img/close-button.png" class="modalbox__close-btn" />
         <form action="#" class="modalbox__form">
           <!-- FORM HEADER -->
           <div class="form__header">
@@ -54,11 +54,16 @@
             </p>
             <p class="form__main--text phone">
               Чтобы я 100% не забыл, пришлите мне СМС-напоминание на этот моб.
-              тел. <span>(введите номер)</span>:<input
-                class="form__main--input inp-phone"
-                type="tel"
-                placeholder="+79 000 000 00 00"
-              />
+              тел. <span>(введите номер)</span>:
+              <input list="phone" type="tel " class="inp-phone" placeholder="+79 000 000 00 00"/>
+              <datalist id="phone" >
+                <option value="+7901"></option>
+                <option value="+7902"></option>
+                <option value="+7903"></option>
+                <option value="+7904"></option>
+                <option value="+7905"></option>
+                <option value="+7906"></option>
+              </datalist>
             </p>
           </div>
           <!-- FORM MAIN -->
